@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <link rel="stylesheet" href="testnew.css">
+</head>
+<body>
+    <div id="menu">
+      <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href= "content.html">Products</a></li>
+      <ul class="sub-menu">
+      </ul>
+      </li>
+     <li><a href="">Help</a></li>
+      </ul>
+      </div>
+    </div>
+        <div class="container">
+            <div class="cart">
+              <div class="slider"> 
+              <br>
+              <br>
+                <h3>PRICE:</h3>
+                <div id="price"></div>
+                <h3>NAME:</h3>
+                <div id="name"></div>
+                <h3>SUM:</h3>
+                <div id="sum"></div>
+                <button type="button" onclick = back()>X</button>
+              </div> 
+            </div>
+        <div class="shop">
+            <div class="content">
+              <br>
+          <br>
+          <br>
+                <div class="gird-photo" id="food">
+                    <div class="photo">
+                    <img src="./assets/Razor.jpeg" alt="No image">
+                    <h3 class="name1" >The Razor Crest</h3>
+                    <p class="set1" >500$</p> <button type="button" onclick = "buy()" class="0">Order</button>
+                  </div>
+                  <div class="photo">
+                    <img src="./assets/Hogwarts.jpeg" alt="No image">
+                    <h3 class="name2" >Hogwarts express collectors edition </h3>
+                    <p class="set2">400$ </p> <button type="button" onclick = "buy()" class="1">Order</button>
+                  </div>
+                  <div class="photo">
+                    <img src="https://image.smythstoys.com/original/desktop/207965.jpg" alt="No image">
+                    <h3 class="name3" >Great Pyramid of Giza</h3>
+                    <p class="set3">450$ </p>  <button type="button" onclick = "buy()" class="2">Order</button>
+                    <br/>
+                  </div>
+            </div>
+            <div class="content2">
+              <div class="gird-photo" id="food">
+              <div class="photo">
+                  <img src="https://pyxis.nymag.com/v1/imgs/5a5/549/1d9d5ef137cd13a25c9f8be19ac1e20257-2
+                  00625-04.2x.rsquare.w600.jpg" alt="No image">
+                  <h3 id="name4" >International Space Station</h3>
+                  <p class="set4">400$.</p> <button type="button" onclick = "buy()" class="3">Order</button>
+                </div>
+                <div class="photo">
+                  <img src="./assets/effeil.jpeg" alt="No image">
+                  <h3 class="name5" >The Effeil Tower </h3>
+                  <p class="set5">450$.</p> <button type="button" onclick = "buy()" class="4">Order</button>
+                </div>
+                <div class="photo">
+                  <img src="./assets/china.jpeg" alt="No image">
+                  <h3 class="name6" >The Great wall of China</h3>
+                  <p class="set6">500$ </p> <button type="button" onclick = "buy()" class="5">Order</button>
+                    <br/>
+                </div>
+                <div class="content3">
+                <div class="gird-photo" id="food">
+                    <div class="photo">
+                    <img src="./assets/dubai.webp" alt="No image">
+                        <h3 class="name7"
+                ="" >Dubai</h3>
+                        <p class="set7">550$</p> <button type="button" onclick = "buy()" class="6">Order</button>
+                    </div>
+                    <div class="photo">
+                    <img src="./assets/friends.jpeg" alt="No image">
+                        <h3 class="name8"
+              ="" >Friends! </h3>
+                        <p class="set8">470$</p> <button type="button" onclick = "buy()" class="7">Order</button>
+                      </div>
+                      <div class="photo">
+                        <img src="./assets/bat.webp" alt="No image">
+                        <h3 class="name9"
+                ="" >Lego Batmobile</h3>
+                        <p class="set9">450$ </p> <button type="button" onclick = "buy()" class="8">Order</button>
+                          <br/>
+                      </div>
+                </div>
+                <div>
+                  <h1> Special offers for Christmas ! </h1>
+                  <br>
+                </div>
+                    <div class="contentspecial">
+                        <div class="photospecial">
+                        <img src="https://www.lego.com/cdn/cs/set/assets/blt2e970dc39af8ba0e/40499_alt1.jpg" 
+                        alt="No image" class="special">
+                            <h3 class="name10"
+      ="" >Santa's visit</h3>
+                            <p class="set10">700$</p> <button type="button" onclick = "buy()" class="9">Order</button>
+                        </div>
+                        <div class="photospecial">
+                        <img src="https://lzd-img-global.slatic.net/g/p/893afb53f27cefa15a0d533a7fb5f6b0.jpg_
+                        720x720q80.jpg_.webp" alt="No image" class="special">
+                            <h3 class="name11"
+      ="" >Santa's workshop </h3>
+                            <p class="set11">600$</p> <button type="button" onclick = "buy()" class="10">Order</button>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                  </div>
+        </div>
+        <script src="content.js"></script>
+      </div>
+      <div>
+      <footer class="footer">
+        <div class="containerfoot">
+            <div class="row">
+                <div class="col-md-5">
+                    <h5><i class="fa fa-road"></i> MINDX.INC</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="">Product</a></li>
+                                <li><a href="">Benefits</a></li>
+                                <li><a href="">Partners</a></li>
+                                <li><a href="">Team</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="">Documentation</a></li>
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Legal Terms</a></li>
+                                <li><a href="">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-md-2">
+                    <h5 class="text-md-right">Contact Us</h5>
+                    <hr>
+                </div>
+                <div class="col-md-5">
+                    <form>
+                        <fieldset class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                        </fieldset>
+                        <fieldset class="form-group text-xs-right">
+                            <button type="button" class="btn btn-secondary-outline btn-lg">Send</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
