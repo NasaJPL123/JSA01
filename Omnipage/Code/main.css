@@ -1,5 +1,54 @@
 .body{
-    background-image: url(/Omnipage/Resource/part1.png);
+    background-image: url(/Omnipage/Resource/hero.jpg);
+    background: rgba(0, 0, 0, 0.7) url(/Omnipage/Resource/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: darken;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.menucontent{
+    width: 60%;
+    height: 30%;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+}
+.logo{
+    width: 40%;
+    height: 30%;
+}
+.picture{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.content{
+    color: white;
+    height: 600px;
+}
+.content1{
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 220px;
+    left: 200px;
+    font-size: 50px;
+}
+.content2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly; 
+   position: relative;
+   top: 250px;
+    left: 220px;
+    width: 400px;
+}
+.title{
+    border: solid 1px orange;
+    border-radius: 15px;
+    padding: 10px;
 }
