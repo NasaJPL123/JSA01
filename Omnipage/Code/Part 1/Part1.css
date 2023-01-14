@@ -11,15 +11,15 @@
     flex-direction: row;
 }
 .menucontent{
-    width: 60%;
-    height: 30%;
+    width: 250px;
+    height: 100px;
     color: white;
     line-height: 100px;
     text-align: center;
 }
 .logo{
-    width: 40%;
-    height: 30%;
+    width: 400px;
+    height: 100px;
 }
 .picture{
     display: block;
