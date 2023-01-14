@@ -1,6 +1,6 @@
 .body{
     background-image: url(/Omnipage/Resource/hero.jpg);
-    background: rgba(0, 0, 0, 0.7) url(/Omnipage/Resource/hero.jpg);
+    background: rgba(0, 0, 0, 0.8) url(/Omnipage/Resource/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
@@ -16,6 +16,7 @@
     color: white;
     line-height: 100px;
     text-align: center;
+    font-size: larger;
 }
 .logo{
     width: 400px;
@@ -29,13 +30,13 @@
 }
 .content{
     color: white;
-    height: 600px;
+    height: 650px;
 }
 .content1{
     position: relative;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     top: 220px;
-    left: 200px;
+    left: 150px;
     font-size: 50px;
 }
 .content2{
@@ -44,11 +45,12 @@
    justify-content: space-evenly; 
    position: relative;
    top: 250px;
-    left: 220px;
+    left: 200px;
     width: 400px;
 }
 .title{
     border: solid 1px orange;
     border-radius: 15px;
     padding: 10px;
+    color: orange;
 }
