@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="Bài 3.css">
 </head>
 <body>
     <div class="container" > 
-        <h1> Welcome to My Website!</h1>
-        <div class="message">However, you must sign in in order to continue !</div>
+        <h1 class="title"> Register form</h1>
         <br>
     <label for="username" class="name"  ><b>Username</b></label>
     <input type="text" id="username" placeholder="Enter your username" class="border">
     <label for="pw" class="name" ><b>Password</b></label>
     <input type="password" id="pw" placeholder="Enter your password" class="border">
+    <label for="DOB">Date of birth</label>
+    <input type="date" id= "dob" placeholder="dd/mm/yy" class ="border">
     <button type="button" onclick="login()" class="border"> LOGIN</button>
     </div>
-    <script src="Login.js"></script>
+    <div id="demo"></div>
+    <script src="Bài 3.js"></script>
 </body>
 </html>
