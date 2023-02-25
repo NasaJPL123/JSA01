@@ -11,7 +11,14 @@ async function spotify(){
     options)
         result = await data.json();
         console.log(result)
-
-return
+let myDiv = document.getElementById("demo")
+let innerString = ""
+let list = result.albums.items;
+list.forEach((element) => {
+    let imgURL = element.data.coverArt.sources[1].url;
+    innerString += `<img src="${imgURL}" class ="thumbnail"/>`;
+})
+console.log(innerString);
+myDiv.innerHTML = innerString 
 }
 spotify()

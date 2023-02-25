@@ -1,0 +1,13 @@
+#demo{
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 50px;
+}
+.thumbnail{
+border: solid black 2px;
+height: 100px;
+width: 200px;
+}
